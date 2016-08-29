@@ -1,0 +1,20 @@
+[
+  {
+    "author_id": 1,
+    "firstName": "William",
+    "lastName": "Shakespeare",
+    "dateOfBirth": "1564-04-26"
+  },
+  {
+    "author_id": 2,
+    "firstName": "Christie",
+    "lastName": "Agatha",
+    "dateOfBirth": "1890-09-15"
+  },
+  {
+    "author_id": 3,
+    "firstName": "Joanne",
+    "lastName": "Rowling",
+    "dateOfBirth": "1965-07-31"
+  }
+]

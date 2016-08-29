@@ -1,0 +1,35 @@
+{
+  "name": "book",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "book_id": {
+      "type": "number",
+      "generated": true,
+      "id":true,
+      "required":false,
+      "doc":"This is the primary ID used to identify aan author"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "genre": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "validations": [],
+  "relations": {
+    "author": {
+      "type": "belongsTo",
+      "model": "author",
+      "foreignKey": "author_id"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

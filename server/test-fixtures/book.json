@@ -1,0 +1,32 @@
+[
+  {
+    "book_id": 1,
+    "author_id": 1,
+    "title": "Macbeth",
+    "genre": "Tragedy"
+  },
+  {
+    "book_id": 2,
+    "author_id": 1,
+    "title": "Romeo and Juliet",
+    "genre": "Tragedy"
+  },
+  {
+    "book_id": 3,
+    "author_id": 2,
+    "title": "Curtain",
+    "genre": "Detective"
+  },
+  {
+    "book_id": 4,
+    "author_id": 2,
+    "title": "The Murder On The Orient Express",
+    "genre": "Detective"
+  },
+  {
+    "book_id": 5,
+    "author_id": 3,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "genre": "Fantasy"
+  }
+]
